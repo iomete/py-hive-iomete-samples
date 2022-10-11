@@ -14,10 +14,10 @@ source .env/bin/activate
 ### Install py-hive-iomete package
 
 ```shell
-pip install py-hive-iomete
+pip install --upgrade py-hive-iomete
 
 # or, the following which additionally install SQLAlchemy  
-pip install "py-hive-iomete[sqlalchemy]"
+pip install --upgrade "py-hive-iomete[sqlalchemy]"
 ```
 
 ## Run samples
@@ -31,5 +31,4 @@ python db_api_asynchronous_sample.py
 
 # SQLAlchemy Samples
 python sql_alchemy_iomete_sample.py
-python sql_alchemy_hive_sample.py
 ```
