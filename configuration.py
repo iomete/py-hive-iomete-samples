@@ -1,8 +1,11 @@
-HOST = "<region>.iomete.com"            # default: None, example: frankfurt.iomete.com
-ACCOUNT_NUMBER = "<account_number>"     # default: None, example: 910848238944
-LAKEHOUSE = "<lakehouse_cluster_name>"  # default: None, example: reporting
-DATABASE = "<database>"                 # default: "default", example: db1
-USERNAME = "<username>"                 # default: none, example: john or john@company.com
-PASSWORD = "<password>"                 # default: none, example: my_strong_pass
+# default: None, example: frankfurt.iomete.com
+HOST = "cgaiqk.iomete.cloud"
+WORKSPACE_ID = "sa4j3-7a9"            # default: None, example: 910848238944
+LAKEHOUSE = "analytics"  # default: None, example: reporting
+DATABASE = "default"                 # default: "default", example: db1
+# default: none, example: john or john@company.com
+USERNAME = "fuad@iomete.com"
+# default: none, example: my_strong_pass
+PASSWORD = "9QlfYl43tGHx3M2v5UDsGbfn/M1yk+DRUSRiF0kUT0Q="
 
 TABLE = "employees"                     # table to query

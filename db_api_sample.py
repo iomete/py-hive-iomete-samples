@@ -3,7 +3,7 @@ from configuration import *
 
 connection = hive.connect(
     host=HOST,
-    account_number=ACCOUNT_NUMBER,
+    workspace_id=WORKSPACE_ID,
     lakehouse=LAKEHOUSE,
     database=DATABASE,
     username=USERNAME,
