@@ -5,7 +5,7 @@ from sqlalchemy.schema import *
 from configuration import *
 
 engine = create_engine(
-    f"iomete://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE}?workspace_id={WORKSPACE_ID}&lakehouse={LAKEHOUSE}")
+    f"iomete://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE}?lakehouse={LAKEHOUSE}")
 
 
 def query_table():

@@ -1,11 +1,10 @@
 # default: None, example: frankfurt.iomete.com
-HOST = "{cluster_id}.iomete.cloud"
-WORKSPACE_ID = "abcde-123"            # default: None, example: 910848238944
+HOST = "dceopo8x.iomete.cloud"
 LAKEHOUSE = "analytics"  # default: None, example: reporting
 DATABASE = "default"                 # default: "default", example: db1
 # default: none, example: john or john@company.com
-USERNAME = ""
+USERNAME = "john@example.com"
 # default: none, example: my_strong_pass
-PASSWORD = ""
+PASSWORD = "your-access-code"
 
 TABLE = "employees"                     # table to query
