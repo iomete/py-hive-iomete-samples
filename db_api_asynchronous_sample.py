@@ -4,6 +4,8 @@ from configuration import *
 
 connection = hive.connect(
     host=HOST,
+    port=PORT,
+    scheme=SCHEME,
     lakehouse=LAKEHOUSE,
     database=DATABASE,
     username=USERNAME,

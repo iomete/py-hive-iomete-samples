@@ -4,8 +4,19 @@ from sqlalchemy.schema import *
 
 from configuration import *
 
+
+# Possible dialects (hive and iomete are both operate identically):
+# hive+http
+# hive+https
+# iomete+http
+# iomete+https
+
+dialect = "iomete+https"
+if SCHEME == "http":
+    dialect = "iomete+http"
+
 engine = create_engine(
-    f"iomete://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE}?lakehouse={LAKEHOUSE}")
+    f"{dialect}://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}?lakehouse={LAKEHOUSE}")
 
 
 def query_table():
