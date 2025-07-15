@@ -1,6 +1,6 @@
 # Sample codes for py-hive-iomete
 
-This is a samples repository to show how to use [py-hive-iomete](https://github.com/iomete/py-hive-iomete)
+This is a samples repository to show how to use [py-hive-iomete](https://github.com/iomete/iomete-integrations/tree/main/py-hive-iomete)
 
 ## Prepare environment
 
